@@ -31,4 +31,15 @@
   </servlet-mapping>
   
   
+  <servlet>
+	  <servlet-name>Compte</servlet-name>
+	  <servlet-class>isetj.servlets.CompteurServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Compte</servlet-name>
+  	<url-pattern>/CompteurServlet</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>
