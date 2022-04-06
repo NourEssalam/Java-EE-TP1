@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Choisix la moteur de recherche</title>
+
+<style>
+
+.form-box{
+ 	width:50%; 
+ 	height:100%; 
+ 	
+ 	background-color:#ddd;  
+ 	
+ 	margin:20px; 
+ 	padding:50px; 
+ 
+}
+
+
+.input-box {
+   
+   display:block; 
+}
+
+
+.input-box input, select{
+	   
+	   margin:0px 30px 20px 20px; 
+	   width: 500px; 
+	   padding: 10px; 
+}
+
+button{
+position:relative;
+left:550px;  
+background:#808080; 
+padding:10px; 
+
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="form-box">
+
+<form action="goSearch" method="Get">
+
+<div class="input-box">
+<label>Votre Recherche </label>
+<input type="text" name="yourSearch" >
+</div>
+
+<div class="input-box">
+<label>Moteur Recherche </label>
+<select name="engine">
+		<option value="https://www.google.com/search?q="> Google Search </option>
+		<option value="https://search.yahoo.com/search?q="> Yahoo </option>
+		
+</select>
+</div>
+
+<div class="input-box">
+<button type="submit">Submit</button>
+</div>
+
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
